@@ -1,0 +1,15 @@
+bitboy setup
+------------
+
+I did not include any IDE files. So you have to connect and setup the compiler manually.
+
+project bitboy
+Creates a swc to be included in your main project to run and communicate with the worker.
+
+project bitboy-shared
+A shared library (swc) for bitboy and bitboy-worker.
+
+project bitboy-worker
+Should be compiled as a swf, where BitboyWorker is the entry class.
+
+2013 - André Michelle
